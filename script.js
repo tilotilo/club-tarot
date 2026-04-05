@@ -695,11 +695,16 @@ document.querySelector(".three-card").addEventListener("click", () => {
   const result = threeCardReading();
   renderReading(result);
 });
-
-
+//shuffle function
 document.querySelector(".shuffle").addEventListener("click", () => {
   const result = shuffle();
   // renderReading(result);
+});
+//counter event listener func
+let theCount = 0;
+document.querySelector(".count").addEventListener("click", () => {
+  theCount++;
+  renderReading(theCount);
 });
 //basic render idea
 function renderReading(cards) {
