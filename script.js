@@ -700,12 +700,6 @@ document.querySelector(".shuffle").addEventListener("click", () => {
   const result = shuffle();
   // renderReading(result);
 });
-//counter event listener func
-//let theCount = 0;
-document.querySelector(".counter").addEventListener("click", () => {
-  theCount++;
-  renderReading("the count");
-});
 //basic render idea
 function renderReading(cards) {
   const output = document.querySelector(".output");
