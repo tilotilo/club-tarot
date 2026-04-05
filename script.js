@@ -702,7 +702,7 @@ document.querySelector(".shuffle").addEventListener("click", () => {
 });
 //counter event listener func
 let theCount = 0;
-document.querySelector(".count").addEventListener("click", () => {
+document.querySelector(".counter").addEventListener("click", () => {
   theCount++;
   renderReading(theCount);
 });
