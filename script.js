@@ -701,10 +701,10 @@ document.querySelector(".shuffle").addEventListener("click", () => {
   // renderReading(result);
 });
 //counter event listener func
-let theCount = 0;
+//let theCount = 0;
 document.querySelector(".counter").addEventListener("click", () => {
   theCount++;
-  renderReading(theCount);
+  renderReading("the count");
 });
 //basic render idea
 function renderReading(cards) {
